@@ -30,7 +30,7 @@ var BugTable = React.createClass({
       return <BugRow key={bug._id} bug={bug} />
     });
     return (
-      <table>
+      <table className="table table-striped table-bordered table-condensed">
         <thead>
           <tr>
             <th>id</th>
@@ -110,7 +110,9 @@ var BugList = React.createClass({
     console.log("Rendering buglist, num items:", this.state.bugs.length);
     return (
       <div>
-        <h1>Bug Tracker</h1>
+        <h1>Bug Tracking</h1>
+        <hr />
+        
         <BugFilter submitHandler={this.changeFilter} initFilter={this.props.location.query}/>
         <hr />
         <BugTable bugs={this.state.bugs}/>
