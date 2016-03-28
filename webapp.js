@@ -64,7 +64,7 @@ MongoClient.connect('mongodb://localhost/bugsdb', function(err, dbConnection) {
 	db= dbConnection;
 })
 
-var server = app.listen(3030, function() {
+var server = app.listen((process.env.PORT || 3030), function() {
 	var port = server.address().port;
 	console.log("Started server at port", port);
 });
