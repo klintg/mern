@@ -10,12 +10,7 @@
     "type": "git",
     "url": ""
   },
-  "keywords": [
-    "react",
-    "tutorial",
-    "MERN"
-  ],
-  "author": "Vasan Subramanian",
+  "author": "klint",
   "license": "MIT",
   "bugs": {
     "url": ""
