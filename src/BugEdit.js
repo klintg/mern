@@ -88,7 +88,9 @@ var BugEdit = React.createClass({
     }
 
     $.ajax({
-      url: '/api/bugs/' + this.props.params.id, type: 'PUT', contentType:'application/json',
+      url: '/api/bugs/' + this.props.params.id,
+      type: 'PUT',
+      contentType:'application/json',
       data: JSON.stringify(bug),
       dataType: 'json',
       success: function(bug) {

@@ -59,8 +59,10 @@ app.put('/api/bugs/:id', function(req, res) {
 		})
 	})
 })
-
-MongoClient.connect('mongodb://localhost/bugsdb', function(err, dbConnection) {
+//mongodb://<dbuser>:<dbpassword>@ds025429.mlab.com:25429/bugsdb
+//mongodb://localhost/bugsdb
+//mongodb://localhost/thisbugsss
+MongoClient.connect('mongodb://devin:devin@ds025429.mlab.com:25429/bugsdb', function(err, dbConnection) {
 	db= dbConnection;
 })
 
