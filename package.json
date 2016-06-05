@@ -4,7 +4,8 @@
   "description": "React-stack",
   "main": "webapp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node webapp.js",
+    "postinstall": "gulp"
   },
   "repository": {
     "type": "git",
@@ -33,9 +34,8 @@
     "react-router": "^2.0.1",
     "react-tap-event-plugin": "^0.2.2",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
-  },
-  "devDependencies": {
+    "watchify": "^3.7.0",
     "babel-cli": "^6.6.5"
-  }
+  },
+
 }
