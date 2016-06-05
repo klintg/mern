@@ -5,7 +5,7 @@
   "main": "webapp.js",
   "scripts": {
     "start": "node webapp.js",
-    "postinstall": "gulp"
+    "postinstall": "gulp default"
   },
   "repository": {
     "type": "git",
