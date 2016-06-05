@@ -36,6 +36,6 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0",
     "babel-cli": "^6.6.5"
-  },
+  }
 
 }
